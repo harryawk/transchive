@@ -1,0 +1,49 @@
+Tambah_stok(barcode):
+void
+Tambah stok sesuai barcode
+
+Ada_yang_beli(barcode):
+void
+Kurangi stok sesuai barcode
+
+tambah_jenis_item(nama_barang, stok, harga):
+void
+Tambah record baru di tabel stok
+
+ganti_stok(nama_barang, stok):
+void
+Update record di tabel stok dengan nama_barang
+
+ganti_harga(nama_barang, harga):
+void
+Update record di tabel stok dengan nama_barang
+
+get_transaksi(bulan):
+void
+generate transaksi dari last_get_transaksi
+
+hapus_transaksi(trx_id):
+void
+hapus record dari tabel transaksi
+
+hapus_barang(stok.id, barcode.id):
+void
+hapus record dari tabel stok dan barcode
+
+hapus_stok(barcode):
+void
+hapus record dari tabel stok berdasar barcode
+
+hapus_stok(id):
+void
+hapus record dari tabel stok berdasar id
+
+hapus_barcode(barcode):
+void
+hapus record dari tabel barcode
+
+get_barang(barcode):
+return tuple of barcode table record
+
+get_stok(barcode):
+return tuple of stok table record
